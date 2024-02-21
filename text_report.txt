@@ -1,0 +1,32 @@
+API: https://api.agify.io/?name=meelad
+Average Response Time: 1.5529466462135315 seconds
+Minimum Response Time: 1.321458101272583 seconds
+Maximum Response Time: 2.3788280487060547 seconds
+Median Response Time: 1.4958884716033936 seconds
+95th Percentile Response Time: 2.2788351297378537 seconds
+Standard Deviation: 0.2385059968511184 seconds
+
+API: https://www.boredapi.com/api/activity
+Average Response Time: 1.5553682374954223 seconds
+Minimum Response Time: 0.9317290782928467 seconds
+Maximum Response Time: 2.637568950653076 seconds
+Median Response Time: 1.4836524724960327 seconds
+95th Percentile Response Time: 2.5089951515197755 seconds
+Standard Deviation: 0.39123126983226003 seconds
+
+API: https://api.genderize.io?name=luc
+Average Response Time: 1.2459168720245362 seconds
+Minimum Response Time: 1.0508298873901367 seconds
+Maximum Response Time: 1.9199481010437012 seconds
+Median Response Time: 1.1903845071792603 seconds
+95th Percentile Response Time: 1.4669583916664124 seconds
+Standard Deviation: 0.16008634239611713 seconds
+
+API: https://jsonplaceholder.typicode.com/posts
+Average Response Time: 1.0034721040725707 seconds
+Minimum Response Time: 0.28733015060424805 seconds
+Maximum Response Time: 1.1161792278289795 seconds
+Median Response Time: 1.0310139656066895 seconds
+95th Percentile Response Time: 1.1053248524665833 seconds
+Standard Deviation: 0.10630331143800684 seconds
+

@@ -1,0 +1,5 @@
+API,Method,Data
+https://api.agify.io/?name=meelad,GET,"{}"
+https://www.boredapi.com/api/activity,GET,"{}"
+https://api.genderize.io?name=luc,GET,"{}"
+https://jsonplaceholder.typicode.com/posts,POST,'{"userID": 1,"id": 1,"title": "Making a POST request","body": "This is the data we created."}'

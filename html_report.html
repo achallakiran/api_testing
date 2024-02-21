@@ -1,0 +1,107 @@
+
+        <html>
+        <head>
+            <title>API Load Test Report</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                h1 {
+                    color: #333;
+                }
+                table {
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+                th {
+                    background-color: #f2f2f2;
+                }
+                img {
+                    display: block;
+                    margin: auto;
+                    margin-top: 20px;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>API Load Test Report</h1>
+            <h2>Response Time Summary</h2>
+            <table>
+                <tr>
+                    <th>API</th>
+                    <th>Average Response Time (seconds)</th>
+                    <th>Minimum Response Time (seconds)</th>
+                    <th>Maximum Response Time (seconds)</th>
+                    <th>Median Response Time (seconds)</th>
+                    <th>95th Percentile Response Time (seconds)</th>
+                    <th>Standard Deviation (seconds)</th>
+                </tr>
+                
+                <tr>
+                    <td>https://api.agify.io/?name=meelad</td>
+                    <td>1.5529466462135315</td>
+                    <td>1.321458101272583</td>
+                    <td>2.3788280487060547</td>
+                    <td>1.4958884716033936</td>
+                    <td>2.2788351297378537</td>
+                    <td>0.2385059968511184</td>
+                </tr>
+                
+                <tr>
+                    <td>https://www.boredapi.com/api/activity</td>
+                    <td>1.5553682374954223</td>
+                    <td>0.9317290782928467</td>
+                    <td>2.637568950653076</td>
+                    <td>1.4836524724960327</td>
+                    <td>2.5089951515197755</td>
+                    <td>0.39123126983226003</td>
+                </tr>
+                
+                <tr>
+                    <td>https://api.genderize.io?name=luc</td>
+                    <td>1.2459168720245362</td>
+                    <td>1.0508298873901367</td>
+                    <td>1.9199481010437012</td>
+                    <td>1.1903845071792603</td>
+                    <td>1.4669583916664124</td>
+                    <td>0.16008634239611713</td>
+                </tr>
+                
+                <tr>
+                    <td>https://jsonplaceholder.typicode.com/posts</td>
+                    <td>1.0034721040725707</td>
+                    <td>0.28733015060424805</td>
+                    <td>1.1161792278289795</td>
+                    <td>1.0310139656066895</td>
+                    <td>1.1053248524665833</td>
+                    <td>0.10630331143800684</td>
+                </tr>
+                
+            </table>
+            <h2>Response Time Graphs</h2>
+            
+            
+            <h3>https://api.agify.io/?name=meelad</h3>
+            <img src="plots/plot1.png" alt="https://api.agify.io/?name=meelad Response Time Graph">
+            
+            
+            <h3>https://www.boredapi.com/api/activity</h3>
+            <img src="plots/plot2.png" alt="https://www.boredapi.com/api/activity Response Time Graph">
+            
+            
+            <h3>https://api.genderize.io?name=luc</h3>
+            <img src="plots/plot3.png" alt="https://api.genderize.io?name=luc Response Time Graph">
+            
+            
+            <h3>https://jsonplaceholder.typicode.com/posts</h3>
+            <img src="plots/plot4.png" alt="https://jsonplaceholder.typicode.com/posts Response Time Graph">
+            
+            
+        </body>
+        </html>
+        
