@@ -10,3 +10,6 @@ POST APIs in an input file.
 Input File: input_file.csv contains information about the apis to be called
 call the script using: python3 api_load_test.py 
 Default number of parallel connections: 100. Can be passed from the command line also as the first argument.
+
+Install Dependencies using:
+pip3 install -r requirements.txt
